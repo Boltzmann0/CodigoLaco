@@ -1,0 +1,21 @@
+#Utilizando um loop while:
+
+andar = 20
+while andar >= 1:
+    if andar != 13:
+        print(andar)
+    andar -= 1
+
+#Utilizando um loop for:
+
+for andar in range(20, 0, -1):
+    if andar != 13:
+        print(andar)
+
+#Utilizando uma lista e um loop for:
+
+andares = list(range(20, 0, -1))
+andares.remove(13)
+
+for andar in andares:
+    print(andar)
